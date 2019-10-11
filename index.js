@@ -13,7 +13,7 @@ let connectString = ''
 if (process.env.NODE_ENV === 'dev') {
   connectString = 'mongodb://localhost:27017/teste'
 } else {
-  connectString = 'mongodb://root:rootroot@docdb-2019-10-11-01-27-21.cluster-c51qpgci5gsw.us-east-1.docdb.amazonaws.com:27017/teste?ssl=true&ssl_ca_certs=rds-combined-ca-bundle.pem&replicaSet=rs0'
+  connectString = 'mongodb://root:rootroot@docdb-2019-10-11-01-41-29.cluster-c51qpgci5gsw.us-east-1.docdb.amazonaws.com:27017/teste'
 }
 
 mongoose.connect(connectString, {
